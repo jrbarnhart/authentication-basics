@@ -5,8 +5,8 @@
     <title></title>
   </head>
   <body>
-    <% if (user) {%>
-    <h1>Welcome Back <%= user.username %></h1>
+    <% if (currentUser) {%>
+    <h1>Welcome Back <%= currentUser.username %></h1>
     <a href="/log-out">Log Out</a>
     <% } else { %>
     <h1>Please log in.</h1>
